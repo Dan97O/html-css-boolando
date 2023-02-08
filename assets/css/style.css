@@ -80,10 +80,8 @@
 
 .container_main {
     text-align: center;
-    position: absolute;
     margin: auto;
     width: 50%;
-    height: 400px;
     margin-top: 30px;
     left: 25%;
 }
@@ -185,4 +183,31 @@
 
 
 /* #endregion Main */
+
+/* #region Footer */
+.banner_footer{
+    background-color: var(--tb-footer);
+    height: 100px;
+   display: flex;
+}
+
+.banner_footer > div 
+{   
+    display: flex;
+    color: white;
+    width: 45%;
+    margin: auto;
+    align-items: center;
+    height: 100px;
+}
+
+.info_banner {
+    
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+
+
+/* #endregion Footer */
 
