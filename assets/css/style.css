@@ -191,6 +191,7 @@
 
 /* #region Footer */
 .banner_footer{
+    border-bottom: 1px solid white;
     background-color: var(--tb-footer);
     height: 100px;
     display: flex;
@@ -198,12 +199,13 @@
 
 .banner_footer > div 
 {   
-    display: inline-grid;
+    display: flex;
     color: white;
     width: 45%;
     margin: auto;
-    align-items: center;
+    align-items: flex-end;
     height: 100px;
+    justify-content: space-between;
 }
 
 .info{
@@ -211,21 +213,65 @@
 }
 
 .info_banner {
+    margin-top: 10px;
     font-size: 10px;
     color: white;
 }
 
-.social{
-    display: flex;
+.info_banner li{
+  /*   margin-top: 50px; */
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.info_banner a{
+    list-style: none;
+    color: white;
+    text-decoration-line: none;
+}
+
+#container_info{
+    padding-top: 50px;
+    display: block;
+    width: 50%;
+    height: 100%;
     align-items: center;
-    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#container_social{
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+
+.social{
+    display: inline-block;
+    padding-bottom: 8px;
 }
 
 .icon {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    display: inline-block;
+    padding-bottom: 10px;
     gap: 1rem;
+}
+
+.icon li{
+    display: inline-block;
+}
+
+.icon a{
+    list-style: none;
+    color: white;
+    text-decoration-line: none;
+    padding-bottom: 10px;
+}
+
+.final_banner {
+    background-color: var(--tb-footer);
+    height: 50px;
+    width: 100%;
 }
 
 /* #endregion Footer */
