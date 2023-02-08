@@ -72,4 +72,38 @@
 
 /* #endregion Header */
 
+/* #region Main  */
+
+.container_main {
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.container_image{
+    width: calc(95% / 3);
+    height: 300px;
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 20px;
+}
+
+.image{
+  height: 280px;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Main */
 
