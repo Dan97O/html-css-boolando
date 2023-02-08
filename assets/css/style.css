@@ -188,12 +188,12 @@
 .banner_footer{
     background-color: var(--tb-footer);
     height: 100px;
-   display: flex;
+    display: flex;
 }
 
 .banner_footer > div 
 {   
-    display: flex;
+    display: inline-grid;
     color: white;
     width: 45%;
     margin: auto;
@@ -201,13 +201,27 @@
     height: 100px;
 }
 
-.info_banner {
-    
-    display: flex;
+.info{
     align-items: flex-end;
+}
+
+.info_banner {
+    font-size: 10px;
     color: white;
 }
 
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 1rem;
+}
 
 /* #endregion Footer */
 
