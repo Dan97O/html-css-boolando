@@ -8,3 +8,68 @@
     --tb-header: #ff6900;
     --tb-footer: #1a1a1a;
 }
+
+
+/* #region Header */
+.container_header{
+    background-color: var(--tb-header);
+    height: 50px;
+    width: 100%;
+    display: flex;
+
+}
+
+.container_header > div {
+    margin: auto;
+    width: 70%;
+    height: 25px;
+    background-color: var(--tb-header);
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.link_header li{
+    /* align-items:center; */
+
+    display: inline-block;
+    list-style: none;
+}
+
+.link_header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+}
+
+.logo_header {
+    a/* lign-items:center; */
+
+    height: 100%;
+}
+
+.logo_header img{
+    height: 15px;
+    /* align-items:center; */
+}
+
+.shop_header{
+    color: white;
+}
+
+
+.shop_header {
+    display: inline-block;
+}
+
+.shop_header li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+}
+
+/* #endregion Header */
+
+
